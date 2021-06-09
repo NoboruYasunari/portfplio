@@ -1,24 +1,187 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>入会申し込み</title>
-</head>
-<body>
-	<h1 style="font-size: 24px; color: limegreen;">入会申し込み</h1>
-	<p>
-		入会するには、次のフォームに必要事項をご記入ください。
-	</p>
-	<p>
-		メールアドレス:<input type="email" name="mymail" value="me@example.com">
-	</p>
-	<p>
-		パスワード:<input type="password" name="passcode">
-	</p>
-	<p>
-		<button type="submit">登録しちゃう</button>
-	</p>
-	<img alt="いぬ" src="img/littledog.jpg">
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Noboru Yasunari</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="canonical" href="https://themesberg.com/product/ui-kit/neumorphism-ui-kit-bootstrap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>NoboruYasunari</h1>
+            <h2>Portfolio</h2>
+        </header>
+        <div class="container">
+            <main>
+                <section class="introduce">
+                    <h1>introduction</h1>
+                    <article>
+                        <h2>
+                            <span class="material-icons" style="font-size: 40px;">
+                                face
+                            </span>
+                            <span>Hi! I'm Nobo!</span>
+                        </h2>
+                        <table class="table neumorphism">
+                            <tbody>
+                                <tr>
+                                    <th style="width: 15%; text-align: center;">名前</th>
+                                    <td style="width: 85%;">安成　龍</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="text-align: center;">出身</th>
+                                    <td>山口県下関市</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="text-align: center;">学歴</th>
+                                    <td>日本大学法学部経営法学科卒</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" style="text-align: center;">活動</th>
+                                    <td>
+                                        大学卒業後、レゲエDeeJay活動の傍ら出会い系サイトのサクラのバイトで生活をする。<br>
+                                        当時は出会い系サイトの人気が絶頂だったため、アルバイトにも関わらず年収約700万、すべて遊びで使い切る。<br>
+                                        <br>
+                                        その後、スーツを着た仕事がしたくなりゴリゴリの体育会系の営業会社に就職する。<br>
+                                        出会い系サイトで培ったキーボードタッチの速さを買われ（実際は一切関係ない）、何も理解しないままWebディレクターに就任。<br>
+                                        言葉遣いや振る舞いに関しての一般常識がまったくなかったため、多くの訪問先企業にて出入り禁止となる。<br>
+                                        <br>
+                                        レゲエDeeJay時代に培ったフライヤーのデザインスキルを活かし、デザインの仕事に就く。<br>
+                                        主に紙媒体だがWebも請け負う。<br>
+                                        <br>
+                                        既存のECサイトの構造に興味を持ち、Webプログラミング実践科に入校。<br>
+                                        化粧品ECサイト制作、医療系システム制作、電力配電システム制作、サーバー運用保守などを経てプログラミング講師となる。
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </article>
+                    <article>
+                        <h2>
+                            <span class="material-icons" style="font-size: 40px;">
+                                work_outline
+                            </span>
+                            <span>Works</span>
+                        </h2>
+                        <div class="row" id="saleDeals"></div>
+                    </article>
+                    <article>
+                        <h2>
+                            <span class="material-icons" style="font-size: 40px;">
+                                mail_outline
+                            </span>
+                            <span>Contact</span>
+                        </h2>
+                        <div class="neumorphism padd30 marB15 form-group">
+                            <form action="#" method="post">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12">
+                                        <label for="company" class="dispBlock">企業名</label>
+                                        <div class="input-group marB20">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <span class="material-icons">
+                                                        business
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <input type="text" name="company" id="company" class="form-control form-control-lg">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <label for="name" class="dispBlock">ご担当者名</label>
+                                        <div class="input-group marB20">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <span class="material-icons">
+                                                        insert_emoticon
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <input type="text" name="name" id="name" class="form-control form-control-lg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm-12">
+                                        <label for="phone" class="dispBlock">お電話番号</label>
+                                        <div class="input-group marB20">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <span class="material-icons">
+                                                        call
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <input type="tel" name="phone" id="phone" class="form-control form-control-lg">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-12">
+                                        <label for="email" class="dispBlock">E-Mail</label>
+                                        <div class="input-group marB20">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text">
+                                                    <span class="material-icons">
+                                                        mail_outline
+                                                    </span>
+                                                </span>
+                                            </div>
+                                            <input type="email" name="email" id="email" class="form-control form-control-lg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <label for="requestCategory" class="dispBlock">ご依頼項目</label>
+                                <div class="custom-control form-control-lg custom-checkbox custom-control-inline">
+                                    <input type="checkbox" class="custom-control-input" id="check01" value="check01">
+                                    <label class="custom-control-label" for="check01">エンジニア案件</label>
+                                </div>
+                                <div class="custom-control form-control-lg custom-checkbox custom-control-inline">
+                                    <input type="checkbox" class="custom-control-input" id="check02" value="check02">
+                                    <label class="custom-control-label" for="check02">デザイン案件</label>
+                                </div>
+                                <div class="custom-control form-control-lg custom-checkbox custom-control-inline">
+                                    <input type="checkbox" class="custom-control-input" id="check03" value="check03">
+                                    <label class="custom-control-label" for="check03">講師案件</label>
+                                </div>
+                                <label for="requestContent" class="dispBlock">ご依頼内容</label>
+                                <div class="input-group marB20">
+                                    <textarea class="form-control form-control-lg" id="requestContent" rows="5"></textarea>
+                                </div>
+                                <div class="marB20 alignC">
+                                    <button class="btn btn-sm" id="submitButton" disabled="disabled">
+                                        <span class="material-icons" style="font-size: 20px;">
+                                            send
+                                        </span>
+                                        Submit
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </article>
+                    <article>
+                        <h2>
+                            <span class="material-icons" style="font-size: 40px;">
+                                mail_outline
+                            </span>
+                            <span>Contact</span>
+                        </h2>
+                        <div class="neumorphism padd30 marB15 form-group" id="app">
+                            <p>{{ message03 }}</p>
+                            <p>{{ message02 }}</p>
+                            <p>{{ message01 }}</p>
+                        </div>
+                    </article>
+                </section>
+            </main>
+            <footer>
+                &copy;NoboruYasunari
+            </footer>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+        <script src="js/script.js"></script>
+    </body>
 </html>

@@ -1,0 +1,17 @@
+[
+    {
+       "icon": "laptop_mac",
+       "title": "エンジニア案件",
+       "sentence": "フロントエンドからバックエンドまで幅広く対応いたします。<br>言語はC/C++、Python、JavaScript、SQL、C#、Java、VBA、HTML5/CSS3、PHP、VB.NETなど何でもOK。<br>常駐からリモートワーク、週1~から対応いたします。"
+    },
+    {
+        "icon": "palette",
+        "title": "デザイン案件",
+        "sentence": "Webデザインからフライヤーデザイン、ロゴデザインまで幅広く対応いたします。<br>仕様ツールはIllustrator、Photoshop、InDesign、XD、After Effects、Premiereなど何でもOK。<br>常駐からリモートワーク、週1~から対応いたします。"
+    },
+    {
+        "icon": "import_contacts",
+        "title": "講師案件",
+        "sentence": "プログラミングの考え方からデザインツールの使い方まで幅広く対応いたします。<br>2進数や変数からGIT(バージョン管理)まで言語問わず必要な知識や、eclipseやVSCodeなどの使い方まで何でもOK。<br>常駐からリモートワーク、週1~から対応いたします。"
+    }
+]
